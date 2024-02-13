@@ -3,5 +3,10 @@ datasets >= 1.0.1
 psutil >= 5.7.0
 torch >= 1.4.0
 transformers
-pytorch-lightning==1.0.4
+pytorch-lightning==1.6.0rc0
 GitPython
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
