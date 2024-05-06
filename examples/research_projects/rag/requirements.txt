@@ -5,3 +5,5 @@ torch >= 1.4.0
 transformers
 pytorch-lightning==1.0.4
 GitPython
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
