@@ -3,3 +3,4 @@ jax>=0.2.8
 jaxlib>=0.1.59
 git+https://github.com/google/flax.git
 git+https://github.com/deepmind/optax.git
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
